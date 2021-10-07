@@ -6,7 +6,7 @@ import streamlit as st
 status = st.radio("Select Subject: ", ('English', 'Math'))
 
 #Choice based on condition
-if (status == 'English'):
-    st.success("English")
+if (status == 'Science'):
+    st.success("Science")
 else:
     st.success("Math")
